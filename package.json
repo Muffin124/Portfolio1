@@ -12,24 +12,20 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@radix-ui/react-toast": "^1.2.14",
-    "@tailwindcss/vite": "^4.1.11",
     "amqplib": "^1.0.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "emailjs": "^4.0.3",
     "emailjs-com": "^3.2.0",
     "lucide-react": "^0.525.0",
-    "node": "^25.8.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.3",
-    "tailwind": "^2.3.1",
-    "tailwind-merge": "^3.3.1",
-    "vercel": "^32.3.0"
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
     "@tailwindcss/postcss": "^4.2.2",
+    "@tailwindcss/vite": "^4.1.11",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.5.2",
@@ -42,5 +38,4 @@
     "tailwindcss": "^4.2.2",
     "vite": "^7.0.0"
   }
-  
 }
