@@ -8,12 +8,12 @@ export const SkillsSection = () => {
   };
 
     const skills = [
-        { name: "JavaScript", value: 95 },
-        { name: "React", value: 70 },
-        { name: "Node.js", value: 70 },
-        { name: "CSS", value: 90 },
-        { name: "HTML", value: 95 },
-        { name: "SQL", value: 95 },
+        { name: "JavaScript"},
+        { name: "React"  },
+        { name: "Node.js"  },
+        { name: "CSS" },
+        { name: "HTML" },
+        { name: "SQL" },
     ];
 
     return (
@@ -25,12 +25,7 @@ export const SkillsSection = () => {
     <div key={index} className="p-6 bg-card rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
         <h3 className="text-xl font-semibold mb-2">{skill.name}</h3>
         <div className="flex items-center space-x-3">
-            <input
-                type="range"
-                value={skill.value}
-                readOnly
-                min={0}
-                max={100}
+            <span
                 className="
                     flex-1
                     h-2
@@ -44,51 +39,8 @@ export const SkillsSection = () => {
                     shadow-inner
                     accent-primary
                 "
-                style={{
-                    background: `linear-gradient(90deg,rgba(12, 56, 177, 0.55) ${skill.value}%,rgb(63, 111, 207) ${skill.value}%)`
-                }}
             />
-            <span className="text-sm font-semibold text-primary">{skill.value}%</span>
         </div>
-        <style jsx>{`
-            input[type="range"]::-webkit-slider-thumb {
-                appearance: none;
-                width: 18px;
-                height: 18px;
-                border-radius: 50%;
-                background: #a78bfa;
-                border: 2px solid #fff;
-                box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-                transition: background 0.3s;
-            }
-            input[type="range"]:focus::-webkit-slider-thumb {
-                background: #7c3aed;
-            }
-            input[type="range"]::-moz-range-thumb {
-                width: 18px;
-                height: 18px;
-                border-radius: 50%;
-                background: #a78bfa;
-                border: 2px solid #fff;
-                box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-                transition: background 0.3s;
-            }
-            input[type="range"]:focus::-moz-range-thumb {
-                background: #7c3aed;
-            }
-            input[type="range"]::-ms-thumb {
-                width: 18px;
-                height: 18px;
-                border-radius: 50%;
-                background: #a78bfa;
-                border: 2px solid #fff;
-                box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-                transition: background 0.3s;
-            }
-            input[type="range"]:focus::-ms-thumb {
-                background: #7c3aed;
-            }
-        `}</style>
     </div>
 ))}
                 </div>

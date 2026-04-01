@@ -26,7 +26,7 @@ export function Navbar() {
         };
     }, []);
 
-    // Scroll handler for navbar links
+   
     const handleNavClick = (e, href) => {
         if (href.startsWith("#")) {
             e.preventDefault();
@@ -34,7 +34,7 @@ export function Navbar() {
             const section = document.getElementById(id);
             if (section) {
                 section.scrollIntoView({ behavior: "smooth" });
-                setIsOpen(false); // close mobile menu if open
+                setIsOpen(false); 
             }
         }
     };
@@ -49,7 +49,7 @@ export function Navbar() {
             <div className="container flex items-center justify-between">
                 <a className="text-xl font-bold text-primary flex items-center " href="#">
                     <span className="relative z-10">
-                        <span className="text-glow text-foreground">Kamil </span>Cynar
+                        <span className="text-glow text-foreground">Kamil </span> <span className='text-primary '>Cynar</span>
                     </span>
                 </a>
 
@@ -66,7 +66,6 @@ export function Navbar() {
                     ))}
                 </div>
 
-                {/* Hamburger Menu Icon for Mobile View */}
                 <button
                     onClick={() => setIsOpen((prev) => !prev)}
                     className="md:hidden p-2 text-foreground/80 z-50 "
