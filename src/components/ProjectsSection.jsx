@@ -20,7 +20,7 @@ export const ProjectsSection = () => {
         }, 
         {
             name: "TicTacToe",
-            href: "http://tictactoe.cynarkamil.cba.pl",
+            href: "https://tictactoe-sigma-peach.vercel.app",
             image: "/TictacToe.png",
             title: "TicTacToe",
             description: "A classic Tic Tac Toe game built with React, allowing players to compete against each other.",
