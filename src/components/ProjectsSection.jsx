@@ -4,7 +4,7 @@ export const ProjectsSection = () => {
     const projects = [
         {
             name: "Project Manager",
-            href: "http://projectmanager.cynarkamil.cba.pl",
+            href: "https://projectmanager-nu-three.vercel.app",
             image: "/projectManager.png",
             title: "Project Manager",
             description: "A web application for managing projects, tasks, and team collaboration.",
@@ -12,7 +12,7 @@ export const ProjectsSection = () => {
         },
         {
             name: "Timer Challange",
-            href: "http://timerchallange.cynarkamil.cba.pl",
+            href: "https://timerchallange.vercel.app",
             image: "/TimerChallange.png",
             title: "Timer Challange",
             description: "A mini game where players must stop a timer as close to a target time as possible.",
