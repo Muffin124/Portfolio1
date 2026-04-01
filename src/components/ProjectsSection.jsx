@@ -5,7 +5,7 @@ export const ProjectsSection = () => {
         {
             name: "Project Manager",
             href: "http://projectmanager.cynarkamil.cba.pl",
-            image: "./public/ProjectManager.png",
+            image: "/ProjectManager.png",
             title: "Project Manager",
             description: "A web application for managing projects, tasks, and team collaboration.",
        
@@ -13,7 +13,7 @@ export const ProjectsSection = () => {
         {
             name: "Timer Challange",
             href: "http://timerchallange.cynarkamil.cba.pl",
-            image: "./public/TimerChallange.png",
+            image: "/TimerChallange.png",
             title: "Timer Challange",
             description: "A mini game where players must stop a timer as close to a target time as possible.",
          
@@ -21,7 +21,7 @@ export const ProjectsSection = () => {
         {
             name: "TicTacToe",
             href: "http://tictactoe.cynarkamil.cba.pl",
-            image: "./public/TicTacToe.png",
+            image: "/TicTacToe.png",
             title: "TicTacToe",
             description: "A classic Tic Tac Toe game built with React, allowing players to compete against each other.",
         }
