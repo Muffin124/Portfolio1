@@ -7,7 +7,7 @@ import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
 import { SkillsSection } from "../components/SkillsSection";
 export const Home = () => { 
-    return <div className="min-h-screen bg-backgorund text-foreground overflow-x-hidden "> 
+    return <div className="min-h-screen bg-background text-foreground overflow-x-hidden "> 
 
 
         {/* Theme Toggle */}
