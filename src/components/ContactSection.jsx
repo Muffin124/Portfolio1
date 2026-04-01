@@ -40,7 +40,11 @@ export const ContactSection = () => {
                 </div>
                 <div className="w-full h-full md:w-1/2 flex justify-center items-center mt-8 md:mt-0">
                     <div className="  h-full rounded-lg flex items-center justify-center bg-gray-200 dark:bg-gray-700">
+<<<<<<< HEAD
                     <img src="/jaK.jpg" alt="Contact Placeholder" className='w-full h-full object-cover rounded-lg md:w-96 md:h-96 justify-center' />
+=======
+                    <img src="jaK.jpg" alt="Contact Placeholder" className='w-full h-full object-cover rounded-lg md:w-96 md:h-96 justify-center' />
+>>>>>>> 562c59615d5e58fe4006b3a2e1728a936b80e787
                     </div>
                 </div>
             </div>
