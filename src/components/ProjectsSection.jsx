@@ -5,7 +5,7 @@ export const ProjectsSection = () => {
         {
             name: "Project Manager",
             href: "http://projectmanager.cynarkamil.cba.pl",
-            image: "./public/ProjectManager.png",
+            image: "/projectManager.png",
             title: "Project Manager",
             description: "A web application for managing projects, tasks, and team collaboration.",
        
@@ -21,7 +21,7 @@ export const ProjectsSection = () => {
         {
             name: "TicTacToe",
             href: "http://tictactoe.cynarkamil.cba.pl",
-            image: "./public/TicTacToe.png",
+            image: "/TictacToe.png",
             title: "TicTacToe",
             description: "A classic Tic Tac Toe game built with React, allowing players to compete against each other.",
         }
