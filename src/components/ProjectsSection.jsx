@@ -28,7 +28,7 @@ export const ProjectsSection = () => {
         {
             name: "WeatherApp",
             href: "https://weather-app-six-peach-66.vercel.app",
-            image: "/Weather.png",
+            image: "/WeatherApp.png",
             title: "WeatherApp",
             description: "A Weather App build with React and TypeScript"
         }
