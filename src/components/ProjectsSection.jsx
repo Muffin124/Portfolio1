@@ -24,6 +24,13 @@ export const ProjectsSection = () => {
             image: "/TictacToe.png",
             title: "TicTacToe",
             description: "A classic Tic Tac Toe game built with React, allowing players to compete against each other.",
+        }, 
+        {
+            name: "WeatherApp",
+            href: "https://weather-app-six-peach-66.vercel.app",
+            image: "/Weather.png",
+            title: "WeatherApp".
+            description: "A Weather App build with React and TypeScript"
         }
         
     ];
