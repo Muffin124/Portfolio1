@@ -31,6 +31,13 @@ export const ProjectsSection = () => {
             image: "/WeatherApp.png",
             title: "WeatherApp",
             description: "A Weather App build with React and TypeScript"
+        }, 
+        {
+            name: "Expense Tracker", 
+            href: "https://https://week-2-3-five.vercel.app/scanner",
+            image: "/", 
+            title: "Expense Tracker", 
+            description: "PoC how to manage your expenses implemented AI RAG Orchestor NodeJS/NestJS Angular" 
         }
         
     ];
