@@ -35,7 +35,7 @@ export const ProjectsSection = () => {
         {
             name: "Expense Tracker", 
             href: "https://https://week-2-3-five.vercel.app/scanner",
-            image: "/", 
+            image: "/Expense-Tracker.png", 
             title: "Expense Tracker", 
             description: "PoC how to manage your expenses implemented AI RAG Orchestor NodeJS/NestJS Angular" 
         }
